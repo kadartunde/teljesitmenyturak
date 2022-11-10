@@ -1,3 +1,7 @@
+header{
+    margin-bottom: 40px;
+}
+
 header img{
     display: block;
     margin: 0 auto;
@@ -10,4 +14,41 @@ h1, h2{
 p{
     text-align: justify;
     line-height: 1.8em;
+}
+
+#left{
+    width: 60vw;
+    float: left;
+}
+
+#right{
+    width: 36vw;
+    float: left;
+}
+
+/* body{
+    margin: 0;
+} */
+
+#right img{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+#right p{
+    font-style: italic;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(64,99,33);
+    padding: 10px;
+}
+
+a{
+    color: #fff;
+    padding: 10px;
+    display: block;
+    text-align: center;
 }
